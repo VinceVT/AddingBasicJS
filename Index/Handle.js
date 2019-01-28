@@ -1,7 +1,6 @@
 
 
 function button() {
-    alert("hello");
     document.getElementById("bttn").addEventListener("click", alert("hello world"));
 }
 
