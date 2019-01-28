@@ -1,0 +1,39 @@
+#bttn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  #bttn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #box {
+    padding: 5px, 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-flow: row nowrap;
+    height: 50px;
+    width: 50px;
+    border: solid black;
+  }
+
+#mytext {
+    color : black;
+}
+
+input {
+  margin-left: 10px;
+  width: 50px;
+}
